@@ -1982,12 +1982,12 @@ ul.time-post li.time{
 
 footer{
 	padding:50px 0 0 0;
-	color:#bbb;
+	color:#000000;
 	background: url(../img/header-pattern-150.png) repeat;
 }
 
 footer a {
-	color:#eee;
+	color:#030000;
 	text-decoration:none;
 }
 
@@ -1997,7 +1997,7 @@ footer a:hover {
 
 
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{
-	color:#eee;
+	color:#030000;
 }
 
 footer .footer_logo {
@@ -2042,7 +2042,7 @@ footer h5 a:hover, footer a:hover {
 #sub-footer{
 	background: url(../img/top-pattern-150.png) repeat;
 	text-shadow:none;
-	color:#ddd;
+	color:#350826;
 	padding:0;
 	padding-top:30px;
 	margin:20px 0 0 0;
