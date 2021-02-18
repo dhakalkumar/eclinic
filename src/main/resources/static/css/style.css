@@ -136,17 +136,17 @@ img.img-polaroid {
 
 /* --- header -- */
 header{
-	background: url(../img/header-pattern-150.png) repeat;
+	background: url(../img/capsule.png) repeat;
 	margin:0;
 	padding:0 0 20px;
 	position:relative;
-	z-index:2000;
+	/* z-index:2000; */
 }
 
 header .top {
 	padding:10px 0 10px;
 	margin:0 0 30px;
-	background: url(../img/top-pattern-150.png) repeat;
+	background: url(../img/capsule.png) repeat;
 -webkit-box-shadow: 0 4px 4px -2px #222;
    -moz-box-shadow: 0 4px 4px -2px #222;
         box-shadow: 0 4px 4px -2px #222;
@@ -217,11 +217,12 @@ ul.social-network li a:hover {
 
 header .navigation {
 	float:right;
+	margin-left: auto;
 }
 
 header ul.nav li {
 	border:none;
-	margin:0;
+	margin: auto;
 }
 
 header ul.nav li a {
@@ -1396,7 +1397,7 @@ ul.link-list li{
 }
 
 footer ul.link-list li a{
-	color:#babdb6;
+	color:#2e3436;
 	font-weight:300;
 }
 
@@ -1983,11 +1984,18 @@ ul.time-post li.time{
 footer{
 	padding:50px 0 0 0;
 	color:#000000;
-	background: url(../img/header-pattern-150.png) repeat;
+	
+	background: url(../img/footer.png); 
+	/* background-image: url("../img/header-pattern.png"); */
+}
+footer background {
+	max-width: 100%;
+	height: auto;
+	background-size: cover;
 }
 
 footer a {
-	color:#030000;
+	color:#555753;
 	text-decoration:none;
 }
 
@@ -2005,14 +2013,14 @@ footer .footer_logo {
 }
 
 footer .footer_logo h3 {
-	color:#fdfdfd;
+	color:#030000;
 	letter-spacing:-1px;
 	font-size:2.2em;
 	font-weight:900;
 	margin:0;
 }
 footer .footer_logo h3 a {
-	color:#fdfdfd;
+	color:#030000;
 }
 footer .footer_logo h3 a:hover {
 	text-decoration:none;
@@ -2057,7 +2065,7 @@ footer h5 a:hover, footer a:hover {
 }
 
 #sub-footer span{
-	color:#c7c7c7;
+	color:#030000;
 }
 
 .copyright p {
@@ -2439,6 +2447,7 @@ ul.the-icons {
 	header .logo {
 		float:none;
 		text-align:center;
+		margin-top: 20px;
 	}
 
 	ul.social-network {
