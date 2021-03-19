@@ -240,7 +240,10 @@ header ul.nav li a i {
 }
 
 .navbar .nav a:hover {
-	background:none;
+	background: url("/img/capsule.png");
+}
+.topnav-right {
+	float: right;
 }
 
 .navbar .nav > .active > a,.navbar .nav > .active > a:hover {
